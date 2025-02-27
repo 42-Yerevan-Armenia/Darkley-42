@@ -1,4 +1,4 @@
-# 08-Dir Access Attack - Resources
+# 08-Dir Access Attack
 
 ## 🕵️ Step 1: Initial Curiosity
 We notice a page parameter in the URL:

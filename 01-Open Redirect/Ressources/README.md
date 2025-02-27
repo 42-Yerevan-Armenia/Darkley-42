@@ -1,4 +1,4 @@
-# 01-Open Redirect - Resources
+# 01-Open Redirect
 In this scenario, we found a social media link with a redirect parameter:
 
 ```

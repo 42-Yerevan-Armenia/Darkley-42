@@ -1,4 +1,4 @@
-# 04-Value Manipulation - Resources
+# 04-Value Manipulation
 On the survey page, the grading system accepts values from 1 to 10. However, by intercepting and modifying the input, we can send values beyond the intended limit.
 
 ### Steps to Exploit:

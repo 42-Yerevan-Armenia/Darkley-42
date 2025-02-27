@@ -1,4 +1,4 @@
-# 02-Insecure Cookie Handling - Resources
+# 02-Insecure Cookie Handling
 In this case, we found an insecurely stored admin cookie:
 ```
 I_am_admin=68934a3e9455fa72420237eb05902327
