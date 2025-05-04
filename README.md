@@ -34,6 +34,23 @@ Injects malicious scripts into webpages that are stored and executed later.
 ### [13-Reflected XSS](https://github.com/Aramxxx8691/Darkley-42/blob/master/13-Reflected%20XSS/Ressources/README.md)  
 Injects malicious scripts into requests that reflect back in web responses.
 
+## 🌐 OWASP – Open Worldwide Application Security Project
+OWASP is a global non-profit organization that works to improve the security of software. It's one of the most respected names in the cybersecurity community, especially when it comes to web application security.
+
+### 🔎 What It Does:
+- Creates free, open-source tools and documentation for anyone interested in building or testing secure applications.
+- Maintains the famous OWASP Top 10, a regularly updated list of the most dangerous web vulnerabilities (like SQL injection, XSS, etc.).
+- Hosts community projects, events, and conferences that bring together developers, researchers, and security experts worldwide.
+
+### 🛠 Popular OWASP Projects:
+- OWASP Top 10 – The most well-known list of common web security risks.
+- ZAP (Zed Attack Proxy) – A free tool to help test the security of websites.
+- Security Cheat Sheets – Simple best-practice guides for secure development.
+
+### 🧠 Why It Matters:
+OWASP is trusted by companies, developers, and governments to define security standards and help build safer systems. It’s not just for hackers or experts—it’s for anyone who wants to avoid building insecure software.
+
+
 ## Commands us
 
 ### Nikto (Web Server Vulnerability Scanner)
