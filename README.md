@@ -17,7 +17,7 @@ Modifies HTTP headers to bypass security measures or access hidden resources.
 Alters input values to perform unauthorized actions or gain access.
 ### [05-Mime Spoofing](https://github.com/Aramxxx8691/Darkley-42/tree/master/05-Mime%20Spoofing/Ressources/README.md)  
 Fakes file types to bypass file upload restrictions.
-### [06-Hidden Files Scraping](https://github.com/Aramxxx8691/Darkley-42/blob/master/06-Hidden%20Files%20Scraping/Reasources/README.md)  
+### [06-Hidden Files Scraping](https://github.com/Aramxxx8691/Darkley-42/blob/master/06-Hidden%20Files%20Scraping/Ressources/README.md)  
 Scans for and exposes hidden files within a web server's directories.
 ### [07-Brute Force](https://github.com/Aramxxx8691/Darkley-42/tree/master/07-Brute%20Force/Ressources/README.md)  
 Uses automated attempts to guess passwords or access points.
