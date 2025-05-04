@@ -7,7 +7,7 @@
 ---
 
 ## 🔍 Scenario: Bypassing Referer and User-Agent Checks
-In this scenario, accessing a specific page (`http://10.12.250.253/?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c`) requires the request to appear as if it originated from `https://www.nsa.gov/` and is using a specific browser identified as `"ft_bornToSec"`. These checks are likely implemented by examining the `Referer` and `User-Agent` HTTP request headers.
+In this scenario, accessing a specific page [http://x.x.x.x](http://10.12.250.253/?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c) requires the request to appear as if it originated from `https://www.nsa.gov/` and is using a specific browser identified as `"ft_bornToSec"`. These checks are likely implemented by examining the `Referer` and `User-Agent` HTTP request headers.
 
 ---
 
@@ -16,7 +16,7 @@ In this scenario, accessing a specific page (`http://10.12.250.253/?page=e43ad1f
 1. 🕵️‍♂️ **Information Gathering:** By examining the comments on the initial page, we discover the requirements to proceed: the `Referer` header must be set to `https://www.nsa.gov/` and the `User-Agent` header must be set to `"ft_bornToSec"`.
 2. 🛠️ **Crafting the Malicious Request:** We use a tool like `curl` to construct an `HTTP request` with the necessary forged headers:
 ```bash
-curl -e [https://www.nsa.gov/](https://www.nsa.gov/) -A "ft_bornToSec" "[http://10.12.250.232/?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c](http://10.12.250.232/?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c)" | grep flag
+curl -e [https://www.nsa.gov/](https://www.nsa.gov/) -A "ft_bornToSec" "http://10.12.250.232/?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c" | grep flag
 ```
 - **-e https://www.nsa.gov/:** Sets the Referer header to `https://www.nsa.gov/`, making the server believe the `request` is coming from that page.
 - **-A "ft_bornToSec":** Sets the User-Agent header to "ft_bornToSec", making the server believe we are using the specified custom browser.
