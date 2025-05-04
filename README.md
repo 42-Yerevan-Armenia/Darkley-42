@@ -9,7 +9,7 @@ The project will be evaluated on your ability to demonstrate and explain the sol
 Identifies direct object reference vulnerabilities allowing unauthorized access to data.
 ### [01-Open Redirect](https://github.com/Aramxxx8691/Darkley-42/tree/master/01-Open%20Redirect/Ressources/README.md)  
 Exploits vulnerable redirects to lead users to malicious sites.
-### [02-Insecure Cookie Handling](https://github.com/Aramxxx8691/Darkley-42/tree/master/02-Insecure%20Cookie%20Handling/Resources/README.md)  
+### [02-Insecure Cookie Handling](https://github.com/Aramxxx8691/Darkley-42/blob/master/02-Insecure%20Cookie%20Handling/Resources/README.md)  
 Finds improper cookie management leading to potential session hijacking.
 ### [03-HTTP Header Manipulation](https://github.com/Aramxxx8691/Darkley-42/tree/master/03-HTTP%20Header%20Manipulation/Ressources/README.md)  
 Modifies HTTP headers to bypass security measures or access hidden resources.
@@ -17,7 +17,7 @@ Modifies HTTP headers to bypass security measures or access hidden resources.
 Alters input values to perform unauthorized actions or gain access.
 ### [05-Mime Spoofing](https://github.com/Aramxxx8691/Darkley-42/tree/master/05-Mime%20Spoofing/Ressources/README.md)  
 Fakes file types to bypass file upload restrictions.
-### [06-Hidden Files Scraping](https://github.com/Aramxxx8691/Darkley-42/tree/master/06-Hidden%20Files%20Scraping/Reasources/README.md)  
+### [06-Hidden Files Scraping](https://github.com/Aramxxx8691/Darkley-42/blob/master/06-Hidden%20Files%20Scraping/Reasources/README.md)  
 Scans for and exposes hidden files within a web server's directories.
 ### [07-Brute Force](https://github.com/Aramxxx8691/Darkley-42/tree/master/07-Brute%20Force/Ressources/README.md)  
 Uses automated attempts to guess passwords or access points.
