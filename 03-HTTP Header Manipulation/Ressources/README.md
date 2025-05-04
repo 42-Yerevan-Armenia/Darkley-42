@@ -38,7 +38,7 @@ echo '<script>alert(\'toto\')</script>' | base64
 5. **🔗 Construct the Malicious URI:** Combine the data: scheme, the appropriate MIME type (text/html in this case, as <script> tags are part of HTML), the base64 encoding flag, and the encoded payload:
 `data:text/html;base64,PHNjcmlwdD5hbGVydCgndG90bycpPC9zY3JpcHQ+`
 6. **💉 Inject the Payload:** Replace the original src value (nsa) in the URL with our crafted data URI:
-[http://10.12.250.232/index.php?page=media&src=data:text/html;base64,PHNjcmlwdD5hbGVydCgndG90bycpPC9zY3JpcHQ](http://10.12.250.232/index.php?page=media&src=data:text/html;base64,PHNjcmlwdD5hbGVydCgndG90bycpPC9zY3JpcHQ)
+[http://x.x.x.x](http://10.12.250.232/index.php?page=media&src=data:text/html;base64,PHNjcmlwdD5hbGVydCgndG90bycpPC9zY3JpcHQ)
 7. **💥 Trigger Execution:** When this modified URL is accessed, if the application directly renders the content pointed to by the src parameter without proper sanitization, the browser will interpret the data: URI as HTML and execute the embedded <script> tag, resulting in an alert box displaying "toto".
 
 ---
