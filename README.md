@@ -1,4 +1,4 @@
-# Darkley-42
+# Darkly-42
 
 ## Project Description
 This project introduces you to the basics of cybersecurity, specifically focusing on vulnerabilities commonly found on websites. You'll explore real-world security risks and learn how to identify and exploit them by auditing a vulnerable website. The aim is to help you understand common security flaws such as SQL injection, cross-site scripting (XSS), and more. Throughout the project, you'll apply your knowledge to identify and exploit breaches, working through different challenges in a controlled environment.
